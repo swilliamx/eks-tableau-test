@@ -1,5 +1,31 @@
 # EKS CLuster Creation
 
+
+Create bucket first 
+terraform-eks-01
+
+https://argoproj.github.io/argo-cd/getting_started/
+
+
+aws sts get-caller-identity
+aws eks --region us-east-1 update-kubeconfig --name upgrad-dev-eks-cluster
+kubectl get svc
+
+aws eks --region us-east-1 update-kubeconfig --name upgrad-dev-eks-cluster
+Updated context arn:aws:eks:us-east-1:888662:cluster/upgrad-dev-eks-cluster in /home/swilliams/.kube/config
+export KUBE_CONFIG=/home/swilliams/.kube/config  
+kubectl get svc                     
+
+
+Cleanup:
+Destroy the cluster 
+Destroy the VPC 
+
+Tableau (2021.2.1 & up version) in RHEL7.9 image ONLY no CentOS7.9
+Tableau-server-in-Kubernetes - 3 nodes Cluster
+-------------------------------------------
+
+
 ## Features
 
 - Infrastructure provision for EKS and VPC creation.
